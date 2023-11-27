@@ -21,6 +21,23 @@ public class CharDemo {
         System.out.println("c1 = " + c1);
 
 
+        char ch1 = 65535;
+        System.out.println("ch1 = " + ch1);
+
+        // 如果字面量超出了char类型所表示的数据范围，需要进行强制类型转换
+        char ch2 = (char)65536;
+        System.out.println("ch2 = " + ch2);
+
+
+
+        /*
+          Unicode编码表
+         */
+        // 定义变量存放unicode编码表示的字符
+        char c2 = '\u005d';
+        System.out.println("c2 = " + c2);
+
+
 
 
     }
