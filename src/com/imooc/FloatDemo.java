@@ -17,5 +17,31 @@ public class FloatDemo {
         // 变量之间的赋值
         double d2 = d;
         System.out.println("d2 = " + d2);
+
+        /*
+           testDemo
+         1、定义一个float类型的变量f1,值为98.4
+         2、定义一个float类型的变量f2,将f1赋值给f2
+         3、定义一个整型变量n，值为55
+         4、定义一个double类型的变量d1,值为555.3
+         5、将n的值赋值给d1
+         */
+
+        float f1 = 98.4f;
+        System.out.println("f1 = " + f1);
+
+        float f2 = f1;
+        System.out.println("f2 = " + f2);
+
+        int n = 55;
+        System.out.println("n = " + n);
+
+        double d3 = 555.3;
+        System.out.println("d3 = " + d3);
+
+        d3 = n;
+        System.out.println("赋值后d1的值为：" + d3);
+
+
     }
 }
