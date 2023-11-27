@@ -20,5 +20,7 @@ public class TypeExchange {
         System.out.println("f = " + f);
         float f1 = 3.141592688999f;// 可能存在精度损失
         System.out.println("f1 = " + f1);
+
+
     }
 }
