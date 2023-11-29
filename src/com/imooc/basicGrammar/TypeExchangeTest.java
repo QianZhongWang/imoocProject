@@ -1,4 +1,4 @@
-package com.imooc;
+package com.imooc.basicGrammar;
 
 public class TypeExchangeTest {
     public static void main(String[] args) {

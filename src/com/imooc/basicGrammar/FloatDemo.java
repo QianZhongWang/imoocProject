@@ -1,4 +1,4 @@
-package com.imooc;
+package com.imooc.basicGrammar;
 
 public class FloatDemo {
     public static void main(String[] args) {

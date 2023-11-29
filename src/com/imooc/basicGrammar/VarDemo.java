@@ -1,4 +1,4 @@
-package com.imooc;
+package com.imooc.basicGrammar;
 
 public class VarDemo {
     public static void main(String[] args) {
