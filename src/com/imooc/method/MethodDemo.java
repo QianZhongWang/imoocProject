@@ -1,6 +1,6 @@
 package com.imooc.method;
 
-public class methodDemo {
+public class MethodDemo {
     public static void main(String[] args) {
         // 调用printStar()方法
         printStar();
