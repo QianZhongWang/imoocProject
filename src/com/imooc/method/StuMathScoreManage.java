@@ -1,6 +1,6 @@
 package com.imooc.method;
 
-import java.util.Arrays;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -116,7 +116,11 @@ public class StuMathScoreManage {
         scores[index] = newScore;
     }
 
-
+    /**
+     * 打印输出所有成绩
+     *
+     * @param scores 数学成绩数组
+     */
     public void displayAllScores(float[] scores) {
         if (scores == null) {
             System.out.println("还没有初始化成绩！");
@@ -175,7 +179,7 @@ public class StuMathScoreManage {
                 case 4:
                     int index;
                     float newScore;
-                    if (scores==null){
+                    if (scores == null) {
                         System.out.println("请初始化成绩");
                     }
                     System.out.println("修改前：");
